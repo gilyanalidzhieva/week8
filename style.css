@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.container {
+    padding: 1em;
+}
+
+footer {
+    color: aliceblue;
+    padding-top: 1em;
+}
+
+.card-title, .card-text, .card-footer {
+    display: flex;
+    justify-content: center;
+}
+

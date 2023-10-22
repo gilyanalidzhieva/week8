@@ -1,0 +1,143 @@
+* {
+    font-family: 'Roboto Slab', serif;
+    color: #000;
+    font-size: 20px;
+    font-weight: 300;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Intro';
+    src: url(./assets/intro.woff2);
+    font-style: normal;
+}
+
+body {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 89px;
+    margin-top: 40px;
+}
+
+.header__logo {
+    width: 201px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-left: 76px;
+}
+
+button {
+    border-radius: 100px;
+    background: #5222D0;
+}
+
+.header__button {
+    width: 115px;
+    height: 38px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: 'Intro';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 74px;
+}
+
+.main__title {
+    color:#000;
+    font-family: 'Intro';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin-left: 125px;
+    margin-bottom: 40px;
+}
+
+.item-main {
+    max-width: 365px;
+}
+
+.item-main__title {
+    color:#000;
+    font-family: 'Intro';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 10px;
+}
+
+.item-main__icon {
+    width: 365px;
+    height: 270px;
+    flex-shrink: 0;
+    margin-bottom: 23px;
+}
+
+.item-main__text {
+    color:#000;
+    font-family: Roboto Slab;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+}
+
+.main__row{
+    margin-left: 125px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main__column {
+    padding: 15px;
+}
+
+.form-main__title {
+    color:#FFF;
+    font-family: 'Intro';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+
+}
+
+.form-main_mail {
+    width: 323px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-top: 6px;
+}
+
+.form-main__button {
+    width: 135px;
+    height: 38px;
+    flex-shrink: 0;
+    color:#FFF;
+    font-family: 'Intro';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 23px;
+}
+
+.form-main {
+    width: 365px;
+    height: 233px;
+    flex-shrink: 0;
+    background:#EC615B;
+    padding-left: 18px;
+    padding-top: 25px;
+}
